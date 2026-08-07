@@ -1,3 +1,24 @@
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Arjun%20Dev%20Tripathi&fontSize=50&fontAlignY=35&desc=Data%20Scientist%20|%20GenAI%20%26%20Agentic%20AI%20Engineer&descAlignY=55&animation=fadeIn" width="100%"/>
+</div>
+
+<!-- 🐍 CONTRIBUTION SNAKE - TOP -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" width="100%"/>
+</div>
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arjun-dev-tripathi-790830293)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arjundevtripathi@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arjundevtripathi)
+[![Profile Views](https://komarev.com/ghpvc/?username=arjundevtripathi&label=Profile%20Views&color=0e75b6&style=for-the-badge)](https://github.com/arjundevtripathi)
+
+</div>
+
+---
+
+## 🚀 Skills Solar System
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/main/skills-solar-system-labeled.svg" width="100%" alt="Skills Solar System"/>
@@ -73,29 +94,11 @@ I'm a **Data Scientist with 4+ years of experience** building Machine Learning, 
 
 ---
 
-## 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/output/github-contribution-grid-snake-dark.svg" />
-</div>
-
----
-
 ## 📈 Activity Graph
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=arjundevtripathi&theme=tokyonight&hide_border=true" width="100%" />
 </div>
-
----
-
-## 🏆 Recent Activity
-
-<!--START_SECTION:activity-->
-1. 🎉 Created new repository **[Financial_RAG_System](https://github.com/arjundevtripathi/Financial_Rag_system)**
-2. 📝 Updated **[python_rapo](https://github.com/arjundevtripathi/python_rapo)** with new features
-3. 🔧 Fixed bugs in **[python_assignment](https://github.com/arjundevtripathi/python_assignment)**
-<!--END_SECTION:activity-->
 
 ---
 
@@ -111,21 +114,12 @@ I'm a **Data Scientist with 4+ years of experience** building Machine Learning, 
 
 [![LinkedIn](https://img.shields.io/badge/Let's_Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arjun-dev-tripathi-790830293)
 [![Email](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arjundevtripathi@gmail.com)
-[![GitHub](https://img.shields.io/badge/Follow_Me-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arjundevtripathi)
 
 </div>
 
 ---
 
 <div align="center">
-
-### 📊 Profile Stats
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=arjundevtripathi&theme=tokyonight" width="100%" />
-</p>
-
----
 
 ⭐️ **"Discipline is the bridge between goals and accomplishment."**
 
