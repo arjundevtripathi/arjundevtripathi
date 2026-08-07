@@ -1,140 +1,335 @@
-<svg viewBox="0 0 950 650" xmlns="http://www.w3.org/2000/svg">
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Arjun Dev Tripathi - Data Scientist</title>
+</head>
+<body>
+
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
+    <!-- Background Gradients -->
+    <radialGradient id="bg" cx="50%" cy="50%" r="80%">
       <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
       <stop offset="100%" stop-color="#000000"/>
     </radialGradient>
-    <radialGradient id="sun" cx="35%" cy="35%" r="65%">
+    
+    <!-- Sun Gradient -->
+    <radialGradient id="sun" cx="40%" cy="40%" r="60%">
       <stop offset="0%" stop-color="#fff6d5"/>
-      <stop offset="60%" stop-color="#ffd23f"/>
+      <stop offset="50%" stop-color="#ffd23f"/>
       <stop offset="100%" stop-color="#ff8c00"/>
     </radialGradient>
+    
+    <!-- Glow Effects -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Gradient for text -->
+    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
   </defs>
 
-  <rect x="0" y="0" width="950" height="650" fill="url(#bg)"/>
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="700" fill="url(#bg)"/>
 
-  <!-- stars -->
+  <!-- ============================================================ -->
+  <!-- STARS - Animated Twinkling -->
+  <!-- ============================================================ -->
   <g fill="#ffffff">
-    <circle cx="40" cy="30" r="1.2" opacity="0.8"/>
-    <circle cx="120" cy="80" r="1" opacity="0.6"/>
-    <circle cx="220" cy="20" r="1.4" opacity="0.9"/>
-    <circle cx="330" cy="60" r="1" opacity="0.5"/>
-    <circle cx="480" cy="15" r="1.3" opacity="0.7"/>
-    <circle cx="600" cy="40" r="1" opacity="0.6"/>
-    <circle cx="700" cy="70" r="1.2" opacity="0.8"/>
-    <circle cx="800" cy="30" r="1" opacity="0.6"/>
-    <circle cx="880" cy="90" r="1.2" opacity="0.7"/>
-    <circle cx="60" cy="600" r="1.2" opacity="0.7"/>
-    <circle cx="180" cy="620" r="1" opacity="0.6"/>
-    <circle cx="300" cy="590" r="1.3" opacity="0.8"/>
-    <circle cx="420" cy="625" r="1" opacity="0.5"/>
-    <circle cx="540" cy="605" r="1.2" opacity="0.7"/>
-    <circle cx="680" cy="595" r="1" opacity="0.6"/>
-    <circle cx="820" cy="620" r="1.3" opacity="0.8"/>
-    <circle cx="880" cy="580" r="1" opacity="0.6"/>
+    <circle cx="40" cy="30" r="1.5" opacity="0.8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="80" r="1" opacity="0.6">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="220" cy="20" r="1.8" opacity="0.9">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="330" cy="60" r="1" opacity="0.5">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="480" cy="15" r="1.5" opacity="0.7">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="40" r="1" opacity="0.6">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="70" r="1.5" opacity="0.8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="30" r="1" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="880" cy="90" r="1.5" opacity="0.7">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="920" cy="50" r="1" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="650" r="1.5" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="670" r="1" opacity="0.6">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="640" r="1.8" opacity="0.8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="420" cy="675" r="1" opacity="0.5">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="655" r="1.5" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="645" r="1" opacity="0.6">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="820" cy="670" r="1.8" opacity="0.8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="880" cy="630" r="1" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="680" r="1.2" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3.4s" repeatCount="indefinite"/>
+    </circle>
   </g>
 
-  <text x="475" y="35" text-anchor="middle" fill="#e2e8f0" font-family="Verdana, sans-serif" font-size="18" letter-spacing="2">
+  <!-- ============================================================ -->
+  <!-- HEADER -->
+  <!-- ============================================================ -->
+  <text x="500" y="35" text-anchor="middle" fill="#fbbf24" font-family="Arial, sans-serif" font-size="22" font-weight="bold" letter-spacing="3" filter="url(#glow)">
     ARJUN DEV TRIPATHI
   </text>
-  <text x="475" y="56" text-anchor="middle" fill="#94a3b8" font-family="Verdana, sans-serif" font-size="11" letter-spacing="1">
-    Data Scientist — ML · GenAI · Agentic AI
+  
+  <text x="500" y="58" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12" letter-spacing="2">
+    DATA SCIENTIST  ·  ML ENGINEER  ·  GEN AI PRACTITIONER
+  </text>
+  
+  <text x="500" y="78" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="10" letter-spacing="1">
+    4+ YEARS EXPERIENCE
   </text>
 
-  <!-- orbit paths -->
-  <g fill="none" stroke="#3a4a5a" stroke-width="1" opacity="0.5">
-    <ellipse cx="475" cy="340" rx="60" ry="24"/>
-    <ellipse cx="475" cy="340" rx="105" ry="42"/>
-    <ellipse cx="475" cy="340" rx="155" ry="62"/>
-    <ellipse cx="475" cy="340" rx="210" ry="84"/>
-    <ellipse cx="475" cy="340" rx="270" ry="108"/>
+  <!-- ============================================================ -->
+  <!-- ORBITS -->
+  <!-- ============================================================ -->
+  <g fill="none" stroke="#3a4a5a" stroke-width="1" opacity="0.4">
+    <ellipse cx="500" cy="350" rx="70" ry="28"/>
+    <ellipse cx="500" cy="350" rx="120" ry="48"/>
+    <ellipse cx="500" cy="350" rx="175" ry="70"/>
+    <ellipse cx="500" cy="350" rx="235" ry="94"/>
+    <ellipse cx="500" cy="350" rx="300" ry="120"/>
+    <ellipse cx="500" cy="350" rx="370" ry="148"/>
   </g>
 
-  <!-- sun: 4+ years experience -->
-  <circle cx="475" cy="340" r="26" fill="url(#sun)">
-    <animate attributeName="r" values="26;28;26" dur="3s" repeatCount="indefinite"/>
+  <!-- ============================================================ -->
+  <!-- SUN / CENTER: ARJUN -->
+  <!-- ============================================================ -->
+  <circle cx="500" cy="350" r="32" fill="url(#sun)" filter="url(#softGlow)">
+    <animate attributeName="r" values="32;36;32" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <text x="475" y="345" text-anchor="middle" fill="#3b2a00" font-family="Verdana, sans-serif" font-size="9" font-weight="bold">ARJUN</text>
+  <text x="500" y="347" text-anchor="middle" fill="#3b2a00" font-family="Arial, sans-serif" font-size="10" font-weight="bold">ARJUN</text>
+  <text x="500" y="360" text-anchor="middle" fill="#3b2a00" font-family="Arial, sans-serif" font-size="7">DEV</text>
 
-  <!-- orbit 1: Python, LangChain -->
+  <!-- ============================================================ -->
+  <!-- ORBIT 1: Python, LangChain (6s) -->
+  <!-- ============================================================ -->
+  <!-- Python -->
   <g>
     <g>
-      <circle r="7" fill="#4da6ff"/>
-      <text x="0" y="-12" text-anchor="middle" fill="#7dd3fc" font-family="Verdana, sans-serif" font-size="10" font-weight="bold">Python</text>
+      <circle r="9" fill="#4da6ff" filter="url(#glow)"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#7dd3fc" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Python</text>
       <animateMotion dur="6s" repeatCount="indefinite"
-        path="M 475,340 m -60,0 a 60,24 0 1,0 120,0 a 60,24 0 1,0 -120,0"/>
+        path="M 500,350 m -70,0 a 70,28 0 1,0 140,0 a 70,28 0 1,0 -140,0"/>
     </g>
   </g>
+  <!-- LangChain -->
   <g>
     <g>
-      <circle r="6" fill="#7dd3fc"/>
-      <text x="0" y="-12" text-anchor="middle" fill="#bae6fd" font-family="Verdana, sans-serif" font-size="10" font-weight="bold">LangChain</text>
+      <circle r="8" fill="#7dd3fc"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#bae6fd" font-family="Arial, sans-serif" font-size="10" font-weight="bold">LangChain</text>
       <animateMotion dur="6s" begin="-3s" repeatCount="indefinite"
-        path="M 475,340 m -60,0 a 60,24 0 1,0 120,0 a 60,24 0 1,0 -120,0"/>
+        path="M 500,350 m -70,0 a 70,28 0 1,0 140,0 a 70,28 0 1,0 -140,0"/>
     </g>
   </g>
 
-  <!-- orbit 2: LangGraph, FastAPI -->
+  <!-- ============================================================ -->
+  <!-- ORBIT 2: LangGraph, FastAPI (9s) -->
+  <!-- ============================================================ -->
+  <!-- LangGraph -->
   <g>
     <g>
-      <circle r="7" fill="#22c55e"/>
-      <text x="0" y="-12" text-anchor="middle" fill="#86efac" font-family="Verdana, sans-serif" font-size="10" font-weight="bold">LangGraph</text>
+      <circle r="9" fill="#22c55e" filter="url(#glow)"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#86efac" font-family="Arial, sans-serif" font-size="10" font-weight="bold">LangGraph</text>
       <animateMotion dur="9s" repeatCount="indefinite"
-        path="M 475,340 m -105,0 a 105,42 0 1,0 210,0 a 105,42 0 1,0 -210,0"/>
+        path="M 500,350 m -120,0 a 120,48 0 1,0 240,0 a 120,48 0 1,0 -240,0"/>
     </g>
   </g>
+  <!-- FastAPI -->
   <g>
     <g>
-      <circle r="6" fill="#86efac"/>
-      <text x="0" y="-12" text-anchor="middle" fill="#bbf7d0" font-family="Verdana, sans-serif" font-size="10" font-weight="bold">FastAPI</text>
+      <circle r="8" fill="#86efac"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#bbf7d0" font-family="Arial, sans-serif" font-size="10" font-weight="bold">FastAPI</text>
       <animateMotion dur="9s" begin="-4.5s" repeatCount="indefinite"
-        path="M 475,340 m -105,0 a 105,42 0 1,0 210,0 a 105,42 0 1,0 -210,0"/>
+        path="M 500,350 m -120,0 a 120,48 0 1,0 240,0 a 120,48 0 1,0 -240,0"/>
     </g>
   </g>
 
-  <!-- orbit 3: Streamlit, RAG Systems -->
+  <!-- ============================================================ -->
+  <!-- ORBIT 3: Streamlit, RAG Systems (12s) -->
+  <!-- ============================================================ -->
+  <!-- Streamlit -->
   <g>
     <g>
-      <circle r="7" fill="#f97316"/>
-      <text x="0" y="-12" text-anchor="middle" fill="#fdba74" font-family="Verdana, sans-serif" font-size="10" font-weight="bold">Streamlit</text>
+      <circle r="9" fill="#f97316" filter="url(#glow)"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#fdba74" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Streamlit</text>
       <animateMotion dur="12s" repeatCount="indefinite"
-        path="M 475,340 m -155,0 a 155,62 0 1,0 310,0 a 155,62 0 1,0 -310,0"/>
+        path="M 500,350 m -175,0 a 175,70 0 1,0 350,0 a 175,70 0 1,0 -350,0"/>
     </g>
   </g>
+  <!-- RAG Systems -->
   <g>
     <g>
-      <circle r="6" fill="#fdba74"/>
-      <text x="0" y="-12" text-anchor="middle" fill="#fed7aa" font-family="Verdana, sans-serif" font-size="10" font-weight="bold">RAG Systems</text>
+      <circle r="8" fill="#fdba74"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#fed7aa" font-family="Arial, sans-serif" font-size="10" font-weight="bold">RAG Systems</text>
       <animateMotion dur="12s" begin="-6s" repeatCount="indefinite"
-        path="M 475,340 m -155,0 a 155,62 0 1,0 310,0 a 155,62 0 1,0 -310,0"/>
+        path="M 500,350 m -175,0 a 175,70 0 1,0 350,0 a 175,70 0 1,0 -350,0"/>
     </g>
   </g>
 
-  <!-- orbit 4: Prompt Engineering, TensorFlow -->
+  <!-- ============================================================ -->
+  <!-- ORBIT 4: Prompt Engineering, TensorFlow (16s) -->
+  <!-- ============================================================ -->
+  <!-- Prompt Engineering -->
   <g>
     <g>
-      <circle r="7" fill="#a855f7"/>
-      <text x="0" y="-12" text-anchor="middle" fill="#d8b4fe" font-family="Verdana, sans-serif" font-size="10" font-weight="bold">Prompt Engineering</text>
+      <circle r="9" fill="#a855f7" filter="url(#glow)"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#d8b4fe" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Prompt Engineering</text>
       <animateMotion dur="16s" repeatCount="indefinite"
-        path="M 475,340 m -210,0 a 210,84 0 1,0 420,0 a 210,84 0 1,0 -420,0"/>
+        path="M 500,350 m -235,0 a 235,94 0 1,0 470,0 a 235,94 0 1,0 -470,0"/>
     </g>
   </g>
+  <!-- TensorFlow -->
   <g>
     <g>
-      <circle r="6" fill="#d8b4fe"/>
-      <text x="0" y="-12" text-anchor="middle" fill="#e9d5ff" font-family="Verdana, sans-serif" font-size="10" font-weight="bold">TensorFlow</text>
+      <circle r="8" fill="#d8b4fe"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#e9d5ff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">TensorFlow</text>
       <animateMotion dur="16s" begin="-8s" repeatCount="indefinite"
-        path="M 475,340 m -210,0 a 210,84 0 1,0 420,0 a 210,84 0 1,0 -420,0"/>
+        path="M 500,350 m -235,0 a 235,94 0 1,0 470,0 a 235,94 0 1,0 -470,0"/>
     </g>
   </g>
 
-  <!-- orbit 5: PyTorch -->
+  <!-- ============================================================ -->
+  <!-- ORBIT 5: PyTorch, Docker (20s) -->
+  <!-- ============================================================ -->
+  <!-- PyTorch -->
   <g>
     <g>
-      <circle r="7" fill="#ef4444"/>
-      <text x="0" y="-12" text-anchor="middle" fill="#fca5a5" font-family="Verdana, sans-serif" font-size="10" font-weight="bold">PyTorch</text>
+      <circle r="9" fill="#ef4444" filter="url(#glow)"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#fca5a5" font-family="Arial, sans-serif" font-size="10" font-weight="bold">PyTorch</text>
       <animateMotion dur="20s" repeatCount="indefinite"
-        path="M 475,340 m -270,0 a 270,108 0 1,0 540,0 a 270,108 0 1,0 -540,0"/>
+        path="M 500,350 m -300,0 a 300,120 0 1,0 600,0 a 300,120 0 1,0 -600,0"/>
     </g>
   </g>
+  <!-- Docker -->
+  <g>
+    <g>
+      <circle r="8" fill="#fca5a5"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#fecaca" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Docker</text>
+      <animateMotion dur="20s" begin="-10s" repeatCount="indefinite"
+        path="M 500,350 m -300,0 a 300,120 0 1,0 600,0 a 300,120 0 1,0 -600,0"/>
+    </g>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- ORBIT 6: Git, SQL (24s) -->
+  <!-- ============================================================ -->
+  <!-- Git -->
+  <g>
+    <g>
+      <circle r="9" fill="#f59e0b" filter="url(#glow)"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#fcd34d" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Git</text>
+      <animateMotion dur="24s" repeatCount="indefinite"
+        path="M 500,350 m -370,0 a 370,148 0 1,0 740,0 a 370,148 0 1,0 -740,0"/>
+    </g>
+  </g>
+  <!-- SQL -->
+  <g>
+    <g>
+      <circle r="8" fill="#fcd34d"/>
+      <text x="0" y="-14" text-anchor="middle" fill="#fef3c7" font-family="Arial, sans-serif" font-size="10" font-weight="bold">SQL</text>
+      <animateMotion dur="24s" begin="-12s" repeatCount="indefinite"
+        path="M 500,350 m -370,0 a 370,148 0 1,0 740,0 a 370,148 0 1,0 -740,0"/>
+    </g>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- BOTTOM INFO BOXES -->
+  <!-- ============================================================ -->
+  
+  <!-- Bottom Info Bar -->
+  <g>
+    <!-- Focus -->
+    <rect x="50" y="580" width="200" height="95" rx="10" fill="rgba(15,32,39,0.8)" stroke="#4a5a6a" stroke-width="1"/>
+    <text x="150" y="605" text-anchor="middle" fill="#fbbf24" font-family="Arial, sans-serif" font-size="11" font-weight="bold">🎯 FOCUS</text>
+    <text x="150" y="625" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">AI Solutions</text>
+    <text x="150" y="642" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">Data Driven Insights</text>
+    <text x="150" y="659" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">Generative AI</text>
+
+    <!-- Expertise -->
+    <rect x="280" y="580" width="200" height="95" rx="10" fill="rgba(15,32,39,0.8)" stroke="#4a5a6a" stroke-width="1"/>
+    <text x="380" y="605" text-anchor="middle" fill="#22c55e" font-family="Arial, sans-serif" font-size="11" font-weight="bold">⚡ EXPERTISE</text>
+    <text x="380" y="625" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">ML · DL · NLP</text>
+    <text x="380" y="642" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">GenAI · LLM · RAG</text>
+    <text x="380" y="659" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">Agentic AI</text>
+
+    <!-- Tools -->
+    <rect x="510" y="580" width="200" height="95" rx="10" fill="rgba(15,32,39,0.8)" stroke="#4a5a6a" stroke-width="1"/>
+    <text x="610" y="605" text-anchor="middle" fill="#f97316" font-family="Arial, sans-serif" font-size="11" font-weight="bold">🛠️ TOOLS</text>
+    <text x="610" y="625" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">Python · SQL</text>
+    <text x="610" y="642" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">Git · Docker</text>
+    <text x="610" y="659" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">LangChain · LangGraph</text>
+
+    <!-- Goal -->
+    <rect x="740" y="580" width="200" height="95" rx="10" fill="rgba(15,32,39,0.8)" stroke="#4a5a6a" stroke-width="1"/>
+    <text x="840" y="605" text-anchor="middle" fill="#ef4444" font-family="Arial, sans-serif" font-size="11" font-weight="bold">🚀 GOAL</text>
+    <text x="840" y="625" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">Building Impactful</text>
+    <text x="840" y="642" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">AI Driven Products</text>
+    <text x="840" y="659" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="9">Innovative Solutions</text>
+  </g>
+
+  <!-- ============================================================ -->
+  <!-- QUOTE AT BOTTOM -->
+  <!-- ============================================================ -->
+  <text x="500" y="695" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="10" font-style="italic" letter-spacing="1">
+    "Discipline is the bridge between goals and accomplishment."
+  </text>
+
+  <!-- ============================================================ -->
+  <!-- CODE.LEARN.INNOVATE. -->
+  <!-- ============================================================ -->
+  <text x="500" y="712" text-anchor="middle" fill="#fbbf24" font-family="Arial, sans-serif" font-size="10" font-weight="bold" letter-spacing="3">
+    CODE . LEARN . INNOVATE .
+  </text>
+
 </svg>
+
+</body>
+</html>
