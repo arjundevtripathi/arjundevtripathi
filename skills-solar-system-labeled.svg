@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Arjun Dev Tripathi - Data Scientist</title>
-</head>
-<body>
-
 <svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Background Gradients -->
@@ -38,12 +30,6 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    
-    <!-- Gradient for text -->
-    <linearGradient id="goldText" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#fbbf24"/>
-      <stop offset="100%" stop-color="#f59e0b"/>
-    </linearGradient>
   </defs>
 
   <!-- Background -->
@@ -151,7 +137,6 @@
   <!-- ============================================================ -->
   <!-- ORBIT 1: Python, LangChain (6s) -->
   <!-- ============================================================ -->
-  <!-- Python -->
   <g>
     <g>
       <circle r="9" fill="#4da6ff" filter="url(#glow)"/>
@@ -160,7 +145,6 @@
         path="M 500,350 m -70,0 a 70,28 0 1,0 140,0 a 70,28 0 1,0 -140,0"/>
     </g>
   </g>
-  <!-- LangChain -->
   <g>
     <g>
       <circle r="8" fill="#7dd3fc"/>
@@ -173,7 +157,6 @@
   <!-- ============================================================ -->
   <!-- ORBIT 2: LangGraph, FastAPI (9s) -->
   <!-- ============================================================ -->
-  <!-- LangGraph -->
   <g>
     <g>
       <circle r="9" fill="#22c55e" filter="url(#glow)"/>
@@ -182,7 +165,6 @@
         path="M 500,350 m -120,0 a 120,48 0 1,0 240,0 a 120,48 0 1,0 -240,0"/>
     </g>
   </g>
-  <!-- FastAPI -->
   <g>
     <g>
       <circle r="8" fill="#86efac"/>
@@ -195,7 +177,6 @@
   <!-- ============================================================ -->
   <!-- ORBIT 3: Streamlit, RAG Systems (12s) -->
   <!-- ============================================================ -->
-  <!-- Streamlit -->
   <g>
     <g>
       <circle r="9" fill="#f97316" filter="url(#glow)"/>
@@ -204,7 +185,6 @@
         path="M 500,350 m -175,0 a 175,70 0 1,0 350,0 a 175,70 0 1,0 -350,0"/>
     </g>
   </g>
-  <!-- RAG Systems -->
   <g>
     <g>
       <circle r="8" fill="#fdba74"/>
@@ -217,7 +197,6 @@
   <!-- ============================================================ -->
   <!-- ORBIT 4: Prompt Engineering, TensorFlow (16s) -->
   <!-- ============================================================ -->
-  <!-- Prompt Engineering -->
   <g>
     <g>
       <circle r="9" fill="#a855f7" filter="url(#glow)"/>
@@ -226,7 +205,6 @@
         path="M 500,350 m -235,0 a 235,94 0 1,0 470,0 a 235,94 0 1,0 -470,0"/>
     </g>
   </g>
-  <!-- TensorFlow -->
   <g>
     <g>
       <circle r="8" fill="#d8b4fe"/>
@@ -239,7 +217,6 @@
   <!-- ============================================================ -->
   <!-- ORBIT 5: PyTorch, Docker (20s) -->
   <!-- ============================================================ -->
-  <!-- PyTorch -->
   <g>
     <g>
       <circle r="9" fill="#ef4444" filter="url(#glow)"/>
@@ -248,7 +225,6 @@
         path="M 500,350 m -300,0 a 300,120 0 1,0 600,0 a 300,120 0 1,0 -600,0"/>
     </g>
   </g>
-  <!-- Docker -->
   <g>
     <g>
       <circle r="8" fill="#fca5a5"/>
@@ -261,7 +237,6 @@
   <!-- ============================================================ -->
   <!-- ORBIT 6: Git, SQL (24s) -->
   <!-- ============================================================ -->
-  <!-- Git -->
   <g>
     <g>
       <circle r="9" fill="#f59e0b" filter="url(#glow)"/>
@@ -270,7 +245,6 @@
         path="M 500,350 m -370,0 a 370,148 0 1,0 740,0 a 370,148 0 1,0 -740,0"/>
     </g>
   </g>
-  <!-- SQL -->
   <g>
     <g>
       <circle r="8" fill="#fcd34d"/>
@@ -284,7 +258,6 @@
   <!-- BOTTOM INFO BOXES -->
   <!-- ============================================================ -->
   
-  <!-- Bottom Info Bar -->
   <g>
     <!-- Focus -->
     <rect x="50" y="580" width="200" height="95" rx="10" fill="rgba(15,32,39,0.8)" stroke="#4a5a6a" stroke-width="1"/>
@@ -330,6 +303,3 @@
   </text>
 
 </svg>
-
-</body>
-</html>
