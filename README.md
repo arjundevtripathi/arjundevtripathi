@@ -2,16 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Arjun%20Dev%20Tripathi&fontSize=50&fontAlignY=35&desc=Data%20Scientist%20|%20GenAI%20%26%20Agentic%20AI%20Engineer&descAlignY=55&animation=fadeIn" width="100%"/>
 </div>
 
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arjun-dev-tripathi-790830293)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:arjundevtripathi@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/arjundevtripathi)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=arjundevtripathi&label=Profile%20Views&color=0e75b6&style=for-the-badge)](https://github.com/arjundevtripathi)
-
-</div>
-
 ---
 
 ## 🚀 Skills Solar System
