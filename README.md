@@ -1,14 +1,16 @@
-![Skills Solar System](https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/main/skills-solar-system-labeled.svg)
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Arjun%20Dev%20Tripathi&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Data%20Scientist%20|%20GenAI%20%26%20Agentic%20AI%20Engineer&descSize=18&descAlignY=58" width="100%"/>
+</div>
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=220&section=header&text=Arjun%20Dev%20Tripathi&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Data%20Scientist%20|%20GenAI%20%26%20Agentic%20AI%20Engineer&descSize=18&descAlignY=58" width="100%"/>
-
+  
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arjun-dev-tripathi-790830293)
 [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR-EMAIL)
 [![Profile Views](https://komarev.com/ghpvc/?username=arjundevtripathi&label=Profile%20Views&color=0e75b6&style=for-the-badge)](https://github.com/arjundevtripathi)
 
 </div>
+
+---
 
 ## 🎯 About Me
 
@@ -19,6 +21,8 @@ I'm a **Data Scientist with 4+ years of experience** building Machine Learning, 
 - ⚙️ Backend for AI apps in **FastAPI**, front-ends prototyped in **Streamlit**
 - 🌱 Always exploring the latest in LLM orchestration and evaluation
 - 💬 Open to conversations on GenAI architecture, RAG design, or ML mentoring
+
+---
 
 ## 🧰 Tech Stack
 
@@ -35,11 +39,21 @@ I'm a **Data Scientist with 4+ years of experience** building Machine Learning, 
 
 </div>
 
+---
+
+## 🚀 Skills Solar System
+
+![Skills Solar System](https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/main/skills-solar-system-labeled.svg)
+
+---
+
 ## 📁 Featured Work
 
 - 🏦 **[Financial_Rag_system](https://github.com/arjundevtripathi/Financial_Rag_system)** — Retrieval-Augmented Generation system built for financial document Q&A.
 - 🐍 **[python_rapo](https://github.com/arjundevtripathi/python_rapo)** — Reusable Python project template.
 - 📓 **[python_assignment](https://github.com/arjundevtripathi/python_assignment)** — Applied Python/ML exercises in Jupyter Notebook.
+
+---
 
 ## 📊 GitHub Stats
 
@@ -52,6 +66,8 @@ I'm a **Data Scientist with 4+ years of experience** building Machine Learning, 
 
 </div>
 
+---
+
 ## 🐍 Contribution Graph
 
 <div align="center">
@@ -60,9 +76,12 @@ I'm a **Data Scientist with 4+ years of experience** building Machine Learning, 
 
 </div>
 
+---
+
 <div align="center">
 
 💬 Open to conversations on GenAI architecture, RAG systems, or ML mentoring.
+
 [LinkedIn](https://www.linkedin.com/in/arjun-dev-tripathi-790830293)
 
 </div>
