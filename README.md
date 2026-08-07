@@ -1,9 +1,5 @@
 
 
----
-
-## 🚀 Skills Solar System
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/main/skills-solar-system-labeled.svg" width="100%" alt="Skills Solar System"/>
 </div>
