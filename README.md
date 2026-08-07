@@ -1,10 +1,3 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Arjun%20Dev%20Tripathi&fontSize=50&fontAlignY=35&desc=Data%20Scientist%20|%20GenAI%20%26%20Agentic%20AI%20Engineer&descAlignY=55&animation=fadeIn" width="100%"/>
-</div>
-
----
-
-## 🚀 Skills Solar System
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/main/skills-solar-system-labeled.svg" width="100%" alt="Skills Solar System"/>
