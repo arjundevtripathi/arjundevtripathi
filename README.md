@@ -1,11 +1,6 @@
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=35&duration=3000&pause=500&color=00D4FF&center=true&vCenter=true&random=false&width=800&height=80&lines=👨‍💻+Arjun+Dev+Tripathi;📊+Data+Scientist+%7C+AI+Engineer;🤖+Building+Agentic+AI+Systems;🧠+RAG+%26+LLM+Specialist;🚀+4%2B+Years+of+Experience" alt="Typing Animation" />
 </div>
-
-<br>
-
-
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/main/skills-solar-system-labeled.svg" width="100%" alt="Skills Solar System" onerror="this.style.display='none'"/>
 </div>
