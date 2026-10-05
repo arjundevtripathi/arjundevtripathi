@@ -4,11 +4,7 @@
 
 <br>
 
-<div align="center">
-  <img src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" width="200" alt="3D Developer Animation" />
-  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="200" alt="3D Data Science Animation" />
-  <img src="https://media.giphy.com/media/3oKIPnAIAmcws8nOsE/giphy.gif" width="200" alt="3D AI Animation" />
-</div>
+
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/main/skills-solar-system-labeled.svg" width="100%" alt="Skills Solar System" onerror="this.style.display='none'"/>
