@@ -289,8 +289,4 @@ mindmap
       Streamlit
       Docker
       AWS
-  Amazon Services
-      S3
-      EC2
-      Docker
-      AWS
+
