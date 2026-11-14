@@ -90,6 +90,30 @@ const arjun = {
 
 ---
 
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/output/github-contribution-grid-snake.svg"/>
+  <img alt="github-snake" src="https://raw.githubusercontent.com/arjundevtripathi/arjundevtripathi/output/github-contribution-grid-snake.svg"/>
+</picture>
+
+</div>
+
+---
+
+## ☀️ Solar Activity — Contribution Graph
+
+<div align="center">
+  <img src="https://ghchart.rshah.org/6E40C9/arjundevtripathi" alt="Arjun's Contribution Chart" width="100%"/>
+</div>
+
+---
+
 ## 🌐 Let's Connect
 
 <div align="center">
